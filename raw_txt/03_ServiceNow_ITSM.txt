@@ -1,0 +1,532 @@
+
+--- PAGE 1 ---
+ServiceNow Documentation
+PDF generated on March 26, 2018
+This PDF was created from content on docs.servicenow.com. The web site is updated frequently.
+For the most current ServiceNow product documentation, go to docs.servicenow.com.
+Some examples and graphics depicted herein are provided for illustration only. No real
+association or connection to ServiceNow products or services is intended or should be inferred.
+
+--- PAGE 2 ---
+You can find the most up-to-date technical documentation on the ServiceNow web site at:
+http://docs.servicenow.com
+The ServiceNow site also provides the latest product updates.
+If you have comments about this documentation, submit your feedback to:
+docfeedback@servicenow.com
+Company Headquarters
+2225 Lawson Lane
+Santa Clara, CA 95054
+United States
+(408)501-8550
+ 
+ 
+© 2018 ServiceNow. All rights reserved.
+Terms of Use Privacy Statement
+
+--- PAGE 3 ---
+Contents
+ITSM guided setup. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4
+Access ITSM guided setup. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  7
+ITSM guided setup user interface. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  8
+Unlock a task in ITSM guided setup. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  18
+Mark a configuration task as complete or incomplete. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  18
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 3
+ServiceNow |
+
+--- PAGE 4 ---
+ITSM guided setup
+Last updated: December 02, 2017
+ITSM guided setup provides a sequence of tasks that help you configure IT Service
+Management (ITSM) applications on your ServiceNow instance.
+ITSM guided setup guides you through completing configuration activities that are
+organized in categories for common platform settings and ITSM applications. The
+percentage of activities that you complete for each category is displayed, so that you can
+monitor your progress. Each configuration activity in ITSM guided setup provides the
+following resources to help you:
+• More information (if available for an activity)
+• Contextual embedded help
+• Contextual documentation on the ServiceNow product documentation site
+• Guided tour (if available for an activity)
+Introduction ITSM with a focus on guided setup
+Guided activities for platform configurations
+ITSM guided setup helps you configure common platform settings with these activity
+categories:
+Company
+In the Company category, configure the company name, logo, and color theme to reflect
+your corporate brand. Also configure default system settings such as the time zone and the
+date and time formats.
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 4
+ServiceNow | ITSM guided setup
+
+--- PAGE 5 ---
+Connectivity
+In the Connectivity category, configure your instance to support inbound and outbound
+email notification. Also integrate the instance with your existing LDAP and single sign-on
+(SSO) solutions.
+Foundation Data
+If you do not use Lightweight Directory Access Protocol (LDAP) to import data into your
+instance, complete the activities in the Foundation Data category. Use the Foundation Data
+category to import users, groups, group members, companies, departments, and locations.
+Also assign roles to groups.
+Guided activities for configuration of ITSM applications
+ITSM guided setup provides activity categories to help you configure these corresponding
+ITSM applications:
+CMDB
+The CMDB is a repository of information about your IT infrastructure and services.
+Complete the activities in this category to configure the CMDB for your organization.
+Incident Management
+Incident Management helps restore normal service operations as quickly as possible after
+an unplanned interruption and helps minimize the impact to your business. Complete the
+activities in this category to configure the incident management process for your
+organization.
+Change Management
+The Change Management application helps assess risk and reduce disruption when
+implementing necessary changes to IT services. Complete the activities in this category to
+configure the change management process for your organization.
+Problem Management
+Problem Management helps identify, investigate, and resolve root causes of incidents.
+Complete the activities in this category to configure the problem management process for
+your organization.
+Service Catalog
+The Service Catalog application helps to present the services that your organization offers
+to employees. Complete the activities in this category to structure and build the services
+that the employees can request through the service catalog.
+Knowledge Management
+The Knowledge Management application helps capture and share the ideas, experience,
+and information that your users collectively possess. Effective use of Knowledge
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 5
+ServiceNow | ITSM guided setup
+
+--- PAGE 6 ---
+Management improves efficiency, quality of service, and customer satisfaction. Complete
+the activities in this category to configure the knowledge management process for your
+organization.
+Guided activity to prepare your ServiceNow instance for
+production use
+After you complete all other activity categories, complete the Go Live category to take the
+final steps to prepare your instance for deployment.
+Note:  ITSM guided setup is not supported on tablet and mobile devices. Use one of
+the desktop browsers.
+• Access ITSM guided setup
+You can access ITSM guided setup from the System Administration homepage or by
+navigating to the ITSM guided setup application if the ITSM Guided Setup
+(com.snc.guided_setup) plugin is active.
+• ITSM guided setup user interface
+Each page of the guided setup provides various components to help you navigate to
+activities and monitor your progress.
+• Unlock a task in ITSM guided setup
+A configuration task in ITSM guided setup can have prerequisites that must be completed
+before the configurations for the task can be started. Such tasks are displayed as locked
+until the prerequisites are completed.
+• Mark a configuration task as complete or incomplete
+In ITSM guided setup, you can mark a task as complete after you finish it or if you decide
+to accept the default configurations. If you decide later that you want to configure the
+task, you can mark the task as incomplete to update the completion status accordingly.
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 6
+ServiceNow | ITSM guided setup
+
+--- PAGE 7 ---
+Access ITSM guided setup
+Last updated: November 16, 2017
+You can access ITSM guided setup from the System Administration homepage or by
+navigating to the ITSM guided setup application if the ITSM Guided Setup
+(com.snc.guided_setup) plugin is active.
+Before you begin
+Role required: admin
+The ITSM Guided Setup plugin is active by default for new provisioned instances. If an
+instance is upgraded to the Kingston release, then you must activate the plugin to enable
+ITSM guided setup.
+Introduction ITSM with a focus on guided setup
+Procedure
+1. Start ITSM guided setup from either the System Administration homepage or the
+application navigator.
+Option Description
+From the System Administration homepage a. On the System Administration homepage,
+click Guided Setup.
+b. On the guided setup page, click ITSM
+guided setup.
+From the application navigator Navigate to Guided Setup > ITSM Guided
+Setup.
+2. On the ITSM guided setup homepage, review the list of prerequisites.
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 7
+ServiceNow | ITSM guided setup
+
+--- PAGE 8 ---
+3. Click Get started when you are ready to start the tasks for setting up your instance and
+ITSM applications.
+4. From the category view page, you can then navigate to different pages to review each
+activity category and complete the tasks within them.
+For more information on the controls and various UI components on the different pages
+of ITSM guided setup, see ITSM guided setup user interface.
+Related Tasks
+• Unlock a task in ITSM guided setup
+• Mark a configuration task as complete or incomplete
+ITSM guided setup user interface
+Last updated: November 16, 2017
+Each page of the guided setup provides various components to help you navigate to
+activities and monitor your progress.
+Introduction ITSM with a focus on guided setup
+ITSM guided setup homepage
+The ITSM guided setup homepage displays a list of prerequisites for configuring ITSM
+applications on your ServiceNow instance. It also displays the overall percentage of
+completed activities.
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 8
+ServiceNow | ITSM guided setup
+
+--- PAGE 9 ---
+ITSM Guided Setup homepage
+ITSM Guided Setup homepage UI components
+No. UI Component Description
+1 Completion indicator Displays the overall percentage
+of completed tasks.
+Note:  The percentage
+may decrease if you
+upgrade to a new
+version and have
+new configuration
+items to complete.
+2 Homepage control Opens the ITSM guided setup
+homepage.
+3 Progress chain Represents each activity
+category with a node. The node
+can appear in any of the
+following formats to indicate
+your progress in the category:
+•
+ : Not started
+•
+ : In progress
+•
+ : Skipped
+•
+ : Complete
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 9
+ServiceNow | ITSM guided setup
+
+--- PAGE 10 ---
+No. UI Component Description
+To view details for the category,
+click the corresponding node.
+4 Navigator pane control Helps maximize or minimize the
+application navigator pane.
+5 Pre-setup checklist Displays a list of prerequisites
+that you may need to configure
+ITSM applications.
+6 Get Started button Opens the category view page.
+Note:  If you return to the
+homepage after
+starting
+configuration tasks,
+the Continue
+button is displayed
+instead of the Get
+Started button.
+ITSM guided setup category view page
+The ITSM guided setup category view page displays the configuration categories and the
+tasks contained in them.
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 10
+ServiceNow | ITSM guided setup
+
+--- PAGE 11 ---
+ITSM Guided Setup category view page
+Category view page components
+No. UI Component Description
+1 Status Displays the status of the
+configuration tasks in the
+category.
+• Not started: Indicates that the
+configuration tasks in the
+category are not started. You
+can click the Get Started to
+start the configurations on the
+task view page.
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 11
+ServiceNow | ITSM guided setup
+
+--- PAGE 12 ---
+No. UI Component Description
+• In progress: Indicates that the
+configurations tasks are in
+progress. The percentage of
+complete tasks is also
+displayed. You can click
+Continue to continue with the
+configurations on the task
+view page.
+• Complete: Indicates that the
+configuration tasks are
+complete. You can click Edit to
+change the configurations on
+the task view page.
+• Skipped: Indicates that the
+configuration tasks in the
+category are skipped. If a
+category is skipped, its
+description and configuration
+tasks are not displayed. To
+redisplay the description and
+tasks for a skipped category,
+you can click Activate.
+2 Category name Displays the category name and
+its brief description. You can
+click Skip to skip the
+configuration tasks in the
+category. If a category is
+skipped, its description and
+configuration tasks are not
+displayed.
+3 Tasks Lists the configuration tasks in
+the category. These icons
+indicate the status of each task:
+•
+ : Not started
+•
+ : Locked
+•
+ : Skipped
+•
+ : Complete
+4 Filter Filters the categories by their
+completion status. You can filter
+the categories with these
+options:
+• Show all
+• Incomplete
+• Complete
+5 Accept Best Practices If available, provides a way to
+accept the default
+configurations and mark the
+selected items as complete with
+a single click. When you point to
+this component the status icons
+for the effected tasks change to
+show what will be marked
+complete.
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 12
+ServiceNow | ITSM guided setup
+
+--- PAGE 13 ---
+No. UI Component Description
+Note:  This does not
+change any of the
+configurations. The
+tasks are only
+marked as
+complete to show
+the default Best
+Practice
+configurations will
+be used. Once
+selected this cannot
+be reverted. You
+can modify any
+individual tasks as
+needed.
+Note:  For details on the components that are common between the category view
+page and the homepage, see ITSM guided setup homepage.
+ITSM guided setup task view page
+The ITSM guided setup task view page displays the configuration tasks, their descriptions,
+and their current statuses. It also provides controls to start tasks, skip tasks, mark tasks as
+complete, or unlock tasks.
+ITSM Guided Setup task view page
+Task view page components
+No. UI Component Description
+1 Completion indicator Displays the percentage of
+completed tasks in the category.
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 13
+ServiceNow | ITSM guided setup
+
+--- PAGE 14 ---
+No. UI Component Description
+2 Accept Best Practices If available, provides a way to
+accept the default
+configurations and mark the
+selected items as complete with
+a single click. When you point to
+this component the status icons
+for the affected tasks change to
+show what is marked complete.
+Note:  This does not
+change any of the
+configurations. The
+tasks are only
+marked as
+complete to show
+that the default
+Best Practice
+configurations will
+be used. Once
+selected this cannot
+be reverted. You
+can modify any
+individual tasks as
+needed.
+3 Assign Provides a way to assign tasks
+to other administrators. All tasks
+in the category can be assigned
+to a single admin or each can be
+assigned individually. The list
+only displays users with the
+admin role. When a task is
+assigned, the admin receives a
+notification to the email address
+in their user file.
+4 Category name Lists the configuration tasks in
+the category. These icons
+indicate the status of each task:
+•
+ : Not started
+•
+ : Locked
+•
+ : Skipped
+•
+ : Complete
+•
+ : Best practice accepted
+5 Tasks Displays the task name and its
+brief description.
+You can click Skip to skip the
+configuration task. If a task is
+skipped, its controls become
+unavailable.
+Some tasks are locked because
+you must activate a plugin to
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 14
+ServiceNow | ITSM guided setup
+
+--- PAGE 15 ---
+No. UI Component Description
+start the task. You can click View
+plugins to unlock the task. For
+details, see Unlock a task in
+ITSM guided setup.
+6 Add notes Opens a dialog box to enter
+comments regarding the task
+configuration process. This
+component changes to View
+notes when a note has content.
+The completed note can also be
+accessed in the Guided Setup
+Task [gsw_task] table.
+7 Task controls Controls to start or complete a
+task:
+• Configure: Use this control to
+start a configuration task.
+• Mark as complete: Use this
+control to mark a
+configuration task as
+complete.
+You can mark a configuration
+task as complete after you
+complete the required
+configurations or beforehand
+to accept the default
+configuration settings.
+Note:  For details on the components that are common between the task view page
+and the homepage, see ITSM guided setup homepage.
+ITSM guided setup more information page
+The more information page helps you to understand a process, provides information on the
+benefits of the activity, and describes what to do for a proposed solution.
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 15
+ServiceNow | ITSM guided setup
+
+--- PAGE 16 ---
+ITSM Guided Setup more information page
+More information page components
+No. UI Component Description
+1 Breadcrumbs Provides link to follow back to the parent page from the current page.
+2 Activity Displays the activity name, the time, and the role who has last visited
+the page, and a detailed technical explanation on how and why to
+perform the activity.
+ITSM guided setup configuration view page
+The ITSM guided setup configuration view page helps you set configurations through the
+corresponding forms, lists, properties, and so on. It also provides you access to contextual
+embedded help, contextual documentation on the ServiceNow product documentation site,
+and guided tour (if available for an activity).
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 16
+ServiceNow | ITSM guided setup
+
+--- PAGE 17 ---
+ITSM Guided Setup configuration view page
+Configuration view page components
+No. UI Component Description
+1 Configuration workspace Displays forms, lists, properties,
+and so on, to set the required
+configurations.
+2 Embedded help Displays contextual help
+information and instructions for
+the configuration task.
+3 Task controls
+• Take a Tour: If available, use
+this control to view a guided
+tour of the configuration task.
+• Mark as Complete: Use this
+control to mark a
+configuration task as complete
+and return to the task view
+page.
+• Skip this Configuration: Use
+this control to skip the
+configuration task and return
+to the task view page.
+• Back to Guided Setup: Use
+this control to return to the
+task view page.
+• Exit Guided Setup: Use this
+control to exit the ITSM
+Guided Setup application.
+4 Help pane control Maximizes or minimizes the help
+pane.
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 17
+ServiceNow | ITSM guided setup
+
+--- PAGE 18 ---
+Unlock a task in ITSM guided setup
+Last updated: November 16, 2017
+A configuration task in ITSM guided setup can have prerequisites that must be completed
+before the configurations for the task can be started. Such tasks are displayed as locked
+until the prerequisites are completed.
+Before you begin
+Role required: admin
+About this task
+In ITSM guided setup, the prerequisites can fall under one of the following categories:
+Dependency on a plugin
+Activate the required plugins to unlock the configuration task.
+Dependency on other configuration activities
+Complete the required activities to unlock the configuration task.
+Procedure
+• To unlock a plugin-dependent task:
+1. Click the View plugins link.
+2. In the Required plugins window, select one of the required plugins.
+If only one plugin is required, it gets selected by default.
+3. Under Related Links, click Activate/Upgrade.
+4. Proceed with the onscreen instructions to activate the plugin and reload the form.
+The configuration task is unlocked.
+• To unlock an activity-dependent task:
+1. Complete the prerequisite configuration activity.
+2. If the prerequisite configuration activity itself depends on other configuration
+activities, loop through the prerequisite activities to complete them.
+The configuration task is unlocked.
+Mark a configuration task as complete or incomplete
+Last updated: November 16, 2017
+In ITSM guided setup, you can mark a task as complete after you finish it or if you decide to
+accept the default configurations. If you decide later that you want to configure the task,
+you can mark the task as incomplete to update the completion status accordingly.
+Before you begin
+Role required: admin
+About this task
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 18
+ServiceNow | ITSM guided setup
+
+--- PAGE 19 ---
+When you mark a configuration task as complete or incomplete, the status of the
+corresponding category and the overall completion status are updated. You can click
+Configure and make the required configuration changes irrespective of whether the task is
+marked as complete or incomplete. When you mark a task as incomplete, only the
+completion status is updated, no configuration changes are reverted.
+Procedure
+1. To mark a configuration task as complete, click Mark as complete.
+2. To mark a configuration task as incomplete, click Mark as incomplete
+March 26, 2018 ©2018 ServiceNow. All rights reserved. 19
+ServiceNow | ITSM guided setup
