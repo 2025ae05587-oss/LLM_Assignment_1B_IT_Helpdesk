@@ -1,0 +1,59 @@
+instruction,source,qtype
+"What is the purpose of the incident management practice in ITIL 4?",01_ITIL,factual
+"What role does the service desk play according to ITIL?",01_ITIL,factual
+"How is a problem different from an incident in ITIL terms?",01_ITIL,comparative
+"What is a known error, and how does it relate to a workaround?",01_ITIL,factual
+"How do standard, normal and emergency changes differ in ITIL?",01_ITIL,comparative
+"What information should be included when updating an open incident record?",01_ITIL,procedural
+"What does swarming mean in incident management?",01_ITIL,factual
+"What are the four dimensions of service management in ITIL 4?",01_ITIL,factual
+"How does a service request differ from an incident in ITIL?",01_ITIL,comparative
+"Which contact channels can an ITIL service desk offer to users?",01_ITIL,factual
+"A user keeps chasing the status of an open ticket. How should the helpdesk handle communication during the incident?",01_ITIL,scenario
+"What is the purpose of monitoring and event management in ITIL?",01_ITIL,factual
+"What does service level management aim to achieve, and what is an SLA?",01_ITIL,factual
+"Where do problem identification activities get their input in ITIL?",01_ITIL,procedural
+"What is Microsoft Intune and which device types can it manage?",02_Microsoft_Intune,factual
+"A remote employee's phone is jailbroken and cannot reach company apps. How does Intune explain this?",02_Microsoft_Intune,scenario
+"How do MDM, MAM and SCCM differ in what they protect or handle?",02_Microsoft_Intune,comparative
+"How does Intune protect corporate data on personal BYOD phones?",02_Microsoft_Intune,factual
+"What problem does Windows Autopilot solve?",02_Microsoft_Intune,factual
+"Some devices will not enroll in Intune. What does the guide suggest?",02_Microsoft_Intune,procedural
+"A user cannot reach email even though the device shows as managed by Intune. What should be checked first?",02_Microsoft_Intune,procedural
+"How should new Intune compliance policies be rolled out to avoid locking users out?",02_Microsoft_Intune,procedural
+"A personal device failed to create the Intune app container, leaving corporate data exposed. What is the recommended fix?",02_Microsoft_Intune,scenario
+"Users fail to authenticate to Intune even though their passwords are correct. What is a simple thing to verify?",02_Microsoft_Intune,procedural
+"What MFA approach does the Intune guide recommend for admin accounts?",02_Microsoft_Intune,factual
+"How can Conditional Access be introduced without causing lockouts?",02_Microsoft_Intune,procedural
+"Intune seems to stop working after a network firmware update. What is the likely cause and prevention?",02_Microsoft_Intune,procedural
+"What is ITSM guided setup in ServiceNow?",03_ServiceNow_ITSM,factual
+"What is configured in the Connectivity category of ITSM guided setup?",03_ServiceNow_ITSM,factual
+"When does an administrator need the Foundation Data category, and what does it cover?",03_ServiceNow_ITSM,procedural
+"How do the Incident, Problem and Change Management applications differ in ServiceNow guided setup?",03_ServiceNow_ITSM,comparative
+"What does the Accept Best Practices option do in ITSM guided setup?",03_ServiceNow_ITSM,factual
+"How does an admin open ITSM guided setup, and what must be true first?",03_ServiceNow_ITSM,procedural
+"Why might a task in ITSM guided setup appear locked?",03_ServiceNow_ITSM,factual
+"A service on a RHEL 9 server looks broken. How can its status be checked?",04_RHEL_System_Administration,procedural
+"How do you list all loaded service units on RHEL 9?",04_RHEL_System_Administration,procedural
+"What should be remembered when starting a systemd service on RHEL 9?",04_RHEL_System_Administration,procedural
+"What is the difference between rescue mode and emergency mode on RHEL 9?",04_RHEL_System_Administration,comparative
+"A RHEL 9 server will not boot normally. How can you boot into a troubleshooting target for one boot?",04_RHEL_System_Administration,procedural
+"How do you give a user sudo access on RHEL 9?",04_RHEL_System_Administration,procedural
+"What is a user private group on RHEL, and why is it useful?",04_RHEL_System_Administration,factual
+"How do you add an existing user to a supplementary group on RHEL?",04_RHEL_System_Administration,procedural
+"Which journalctl commands help view logs for the current boot or a specific service on RHEL 9?",04_RHEL_System_Administration,procedural
+"What steps generate a diagnostic report for a Red Hat support case?",04_RHEL_System_Administration,procedural
+"How do you verify time synchronization on a RHEL 9 system?",04_RHEL_System_Administration,procedural
+"What is the process for registering a RHEL system if the simple registration fails?",04_RHEL_System_Administration,procedural
+"A freshly installed Ubuntu server needs SSH traffic allowed. How is the firewall set up?",05_Ubuntu_Server,procedural
+"How can SSH be limited to a single host or subnet with ufw?",05_Ubuntu_Server,procedural
+"What does the --dry-run option do with ufw?",05_Ubuntu_Server,factual
+"How do you configure a static IP address on Ubuntu Server with netplan?",05_Ubuntu_Server,procedural
+"What is the standard way to update and upgrade packages on Ubuntu Server?",05_Ubuntu_Server,procedural
+"How can security updates be installed automatically on Ubuntu Server?",05_Ubuntu_Server,procedural
+"How is a nightly backup script scheduled with cron on Ubuntu?",05_Ubuntu_Server,procedural
+"What SSH access does a default Ubuntu Server installation provide?",05_Ubuntu_Server,factual
+"Where can you look for LXD container problems on an Ubuntu host?",05_Ubuntu_Server,procedural
+"Active Directory users can log in over SSH on an Ubuntu server that only needs Samba. What does the documentation advise?",05_Ubuntu_Server,scenario
+"How do you verify that a newly installed TFTP service is running on Ubuntu?",05_Ubuntu_Server,procedural
+"How do you attach an Ubuntu Advantage subscription to a server?",05_Ubuntu_Server,procedural
