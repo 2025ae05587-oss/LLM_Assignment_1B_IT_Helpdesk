@@ -1,0 +1,20 @@
+[
+  {
+    "configuration": "bfloat16",
+    "peak_vram_gb": 1.3862528,
+    "throughput_tok_s": 19.648483909836713,
+    "cost_per_1M_tokens_INR": 49.480775549073996
+  },
+  {
+    "configuration": "4-bit NF4",
+    "peak_vram_gb": 1.64392704,
+    "throughput_tok_s": 15.678764337089033,
+    "cost_per_1M_tokens_INR": 62.00885486379649
+  },
+  {
+    "configuration": "4-bit + speculative decoding",
+    "peak_vram_gb": 1.64392704,
+    "throughput_tok_s": 9.698700701738854,
+    "cost_per_1M_tokens_INR": 100.24252238734567
+  }
+]

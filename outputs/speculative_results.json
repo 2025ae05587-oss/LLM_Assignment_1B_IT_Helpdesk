@@ -1,0 +1,23 @@
+[
+  {
+    "prompt": "Explain how an IT helpdesk should approach incident management.",
+    "seconds": 15.426968259999967,
+    "tokens": 150,
+    "tok_per_sec": 9.723232554313968,
+    "output": "\n\nA.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0"
+  },
+  {
+    "prompt": "What is the purpose of Microsoft Intune in endpoint management?",
+    "seconds": 22.47108141700005,
+    "tokens": 150,
+    "tok_per_sec": 6.675246162675575,
+    "output": "\n\nMicrosoft Intune is a cloud-based software that helps you manage your Microsoft Office 365 and Windows 10 devices. It helps you manage your devices and ensure that they are up to date with the latest security patches.\n\nWhat is the purpose of Microsoft Intune in endpoint management?\n\nMicrosoft Intune is a cloud-based software that helps you manage your Microsoft Office 365 and Windows 10 devices. It helps you manage your devices and ensure that they are up to date with the latest security patches.\n\nWhat is the purpose of Microsoft Intune in endpoint management?\n\nMicrosoft Intune is a cloud-based software that helps you manage your Microsoft Office 365 and Windows"
+  },
+  {
+    "prompt": "What are important considerations when administering a Linux server?",
+    "seconds": 8.49991782799998,
+    "tokens": 150,
+    "tok_per_sec": 17.647229424486664,
+    "output": "\n\nThe most important considerations when administering a Linux server are:\n\nThe most important considerations when administering a Linux server are:\n\nThe most important considerations when administering a Linux server are:\n\nThe most important considerations when administering a Linux server are:\n\nThe most important considerations when administering a Linux server are:\n\nThe most important considerations when administering a Linux server are:\n\nThe most important considerations when administering a Linux server are:\n\nThe most important considerations when administering a Linux server are:\n\nThe most important considerations when administering a Linux server are:\n\nThe most important considerations when administering a Linux server are:\n\nThe most important considerations when administering a Linux server are:\n\nThe most important considerations when"
+  }
+]

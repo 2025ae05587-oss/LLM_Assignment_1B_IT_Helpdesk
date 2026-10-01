@@ -1,0 +1,29 @@
+[
+  {
+    "prompt": "Explain how an IT helpdesk should approach incident management.",
+    "baseline": "An effective incident response plan involves several key steps. First, it's important to identify and address potential issues early on so they don't escalate into larger problems later. This might involve contacting affected users or systems directly if possible, as well as implementing security measures such as firewalls and antivirus software. Additionally, having clear communication channels in place can help ensure everyone involved understands what needs to be done during an incident. Finally, regularly reviewing and updating your plans ensures you stay up-to-date with best practices for managing incidents effectively.",
+    "adapter": "An IT help desk must be prepared to handle any type of issue related to technology and support services. This includes responding to customer inquiries about technical issues, resolving service requests from customers, and providing assistance when necessary. An effective response strategy requires thorough preparation, clear communication channels, and timely action based on accurate data sources. By implementing best practices such as those outlined in this guide, you can ensure your organization's success while maintaining high levels of reliability for its users.",
+    "baseline_tokens": 107,
+    "adapter_tokens": 94,
+    "baseline_tok_per_sec": 19.216340397751143,
+    "adapter_tok_per_sec": 11.036977708324347
+  },
+  {
+    "prompt": "What is the purpose of Microsoft Intune in endpoint management?",
+    "baseline": "Microsoft Intune is a software application used to manage and monitor Windows endpoints across multiple devices. It provides administrators with tools for monitoring network traffic, managing security settings, and configuring policies. By using Intune, organizations can ensure their endpoints remain secure while also providing users with easy access to updates and patches.",
+    "adapter": "Microsoft Intune provides support for Windows 10 devices and applications to help users manage their endpoints more effectively. It includes features such as device monitoring, access control, and security settings. By using Microsoft Intunet, administrators can better understand how users interact with their systems and identify potential issues before they become major problems. Additionally, it offers tools like Device Manager and Access Control Lists (ACLs) to simplify managing end-user permissions on Windows 7 through 2019. With these capabilities, organizations gain valuable insights into user behavior patterns which helps them make informed decisions about policies and best practices around endpoint management.",
+    "baseline_tokens": 63,
+    "adapter_tokens": 127,
+    "baseline_tok_per_sec": 21.02029187570123,
+    "adapter_tok_per_sec": 11.369109318174367
+  },
+  {
+    "prompt": "What are important considerations when administering a Linux server?",
+    "baseline": "1) Ensure proper hardware and software configuration to avoid potential issues such as performance problems or security vulnerabilities.\n2) Regularly update operating systems and applications to ensure they remain up-to-date with patches and improvements.\n3) Perform routine maintenance tasks like cleaning disks, defragmenting hard drives, and updating firmware.\n4) Monitor system logs for any suspicious activity or errors.\n5) Backup critical data regularly using cloud storage services or external hard drives.\n6) Use strong passwords and enable two-factor authentication whenever possible.\n7) Educate users on safe browsing habits and recognize phishing attempts.\n8) Train staff members in basic troubleshooting skills so they can quickly resolve common issues without needing assistance from technical support teams.",
+    "adapter": "1) Ensure proper security measures such as firewalls and antivirus software to protect against unauthorized access or attacks from malicious parties.\n2) Provide regular updates of operating system patches and applications for improved stability and performance.\n3) Implement strong authentication methods like password policies and multi-factor authentication techniques to prevent unauthorized users from accessing sensitive data.\n4) Regularly monitor network traffic patterns using monitoring tools to detect potential threats before they cause significant damage.\n5) Perform routine maintenance tasks including updating firmware versions, patching vulnerabilities, and performing backups regularly.",
+    "baseline_tokens": 151,
+    "adapter_tokens": 110,
+    "baseline_tok_per_sec": 21.852039858666334,
+    "adapter_tok_per_sec": 11.964449400209368
+  }
+]
